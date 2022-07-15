@@ -1,0 +1,530 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Portfolio PRP</title>
+  <meta name="author" content="Puripong">
+  <meta name="descriptiom" content="การนำเสนอเว็บไซต์จากคอร์สเรียน Fundamental Web Dev with HTML5 & CSS3">
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="prp"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Athiti', sans-serif;
+      background-color: #226e64;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    :root {
+  /* violet */
+  --primary-color: 111, 76, 255;
+  
+  /* white */
+  --text-color: 256, 256, 256;
+}
+
+/* logo-portfolio */
+    img.logo {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+    img.logo-portfolio {
+      width: 256px;
+      height: 256px;
+      margin-top: -50px;
+      border-radius: 50%;
+      display: block;
+      margin-left: 50px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+    img.logo-school1 {
+      width: 256px;
+      height: 256px;
+      margin-top: -30px;
+      border-radius: 50%;
+      display: block;
+      margin-left: 450px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+    img.logo-school2 {
+      width: 256px;
+      height: 256px;
+      margin-top: 150px;
+      border-radius: 50%;
+      display: block;
+      margin-left: 450px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+    img.logo-certificate1 {
+      width: 400px;
+      height: 256px;
+      margin-top: 20px;
+      display: block;
+      margin-left: 400px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+    img.logo-certificate2 {
+      width: 400px;
+      height: 256px;
+      margin-top: 100px;
+      display: block;
+      margin-left: 400px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+    img.logo-certificate3 {
+      width: 400px;
+      height: 256px;
+      margin-top: 100px;
+      display: block;
+      margin-left: 400px;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .h0-hi {
+      color: white;
+      font-size: 70px;
+      line-height: 20vmin;
+      text-align: center;
+    }
+    .h1-hi {
+      color: white;
+      font-size: 50px;
+      text-align: center;
+    }
+    .h2-hi {
+      color: white;
+      font-size: 40px;
+      text-align: center;
+    }
+    
+/* portfolio-1-1 */
+    .preface-1 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      width: 800px;
+      padding: 10px;
+      border: 15px solid gray;
+      margin: 10;
+      margin-left: 440px;
+    }
+    .preface-2 {
+      color: white;
+      font-size: 20px;
+      margin-left: 720px;
+    }
+    .preface-3 {
+      color: white;
+      font-size: 20px;
+      margin-right: 430px;
+      text-align: right;
+    }
+    .portfolio-1 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      width: 800px;
+      padding: 10px;
+      border: 15px solid gray;
+      margin: -550;
+      margin-left: 440px;
+    }
+    .portfolio-2 {
+      color: white;
+      font-size: 20px;
+      margin-left: 450px;
+      text-align: left;
+      margin-top: 550px;
+      
+
+    }
+    .portfolio-4 {
+      color: white;
+      font-size: 20px;
+      text-align: left;
+      margin-left: 450px;
+      margin-top: -50;
+    }
+    .portfolio-3 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      width: 800px;
+      padding: 10px;
+      border: 15px solid gray;
+      margin: 60;
+      margin-left: 440px;
+    }
+    .portfolio-icon {
+      text-align: left;
+      font-size: 50px;
+      margin-top: 20px;
+      margin-right: 1400px;
+    }
+    .portfolio-icon-text {
+      font-size: 30px;
+      margin-top: -40px;
+      margin-right: 1150px;
+    }
+    .portfolio-icon-text1 {
+      font-size: 30px;
+      margin-top: -40px;
+      margin-right: 1110px;
+    }
+    .portfolio-icon-text2 {
+      font-size: 30px;
+      margin-top: -40px;
+      margin-right: 1210px;
+    }
+    .portfolio-icon-text3 {
+      font-size: 30px;
+      margin-top: -40px;
+      margin-right: 1170px;
+    }
+    .bunton-center {
+      text-align: center;
+    }
+    .btn-semi-transparent {
+    background-color: rgba(var(--primary-color), 0.15);
+    border: 1px solid rgba(var(--primary-color), 0.25);
+    color: rgba(var(--text-color), 0.8);
+  }
+  
+  .btn-semi-transparent:hover {
+    background-color: rgba(var(--primary-color), 0.35);
+    border: 1px solid rgba(var(--primary-color), 0.5);
+    color: rgba(var(--text-color), 0.9);
+  }
+  
+  .btn-glow:hover {
+    box-shadow: rgba(var(--primary-color), 0.5) 0px 0px 20px 0px;
+  }
+
+    .scroll-to-top {
+      position: fixed;
+      right: 15px;
+      bottom: 15px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      color: #fff;
+      background: rgba(52, 58, 64, 0.5);
+      line-height: 50px;
+    }
+
+    .scroll-to-top:focus,
+    .scroll-to-top:hover {
+      color: #fff;
+    }
+
+    .scroll-to-top:hover {
+      background: #1683f0;
+    }
+
+    .scroll-to-top i {
+      font-weight: 800;
+    }
+    .rounded {
+  border-radius: 0.35rem !important;
+}
+.educationtext-1 {
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      text-align: left;
+      margin-left: 750px;
+      margin-top: -190;
+    }
+    .educationtext-2 {
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      text-align: left;
+      margin-left: 750px;
+      margin-top: -190;
+    }
+    /* certificatetext-1 */
+    .certificatetext-1 {
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+      text-align: left;
+      margin-left: 850px;
+      margin-top: -190;
+    }
+    .container-card{
+      color: #333;
+      margin-left: 300px;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-card .card{
+    position: relative;
+    cursor: pointer;
+}
+
+.container-card .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container-card .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container-card .card:hover .face.face1{
+    background: #ff0057;
+    transform: translateY(0);
+}
+
+.container-card .card .face.face1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.container-card .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.container-card .card .face.face1 .content img{
+    max-width: 100px;
+}
+
+.container-card .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container-card .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.container-card .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container-card .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+.container-card .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container-card .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+}
+
+  </style>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">PRP PORTFOLIO</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#preface">PREFACE</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">EDUCATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificate">CERTIFICATE</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead d-flex align-items-center">
+    <div class="container">
+    <div class="h0-hi">PORTFOLIO</div><br>
+    <img class="logo" src="img/no-img.png">
+    <div class="h1-hi">PRP</div><br>
+    <div class="h2-hi">A little boy learns to develop a website.</div>
+    <button class="btn btn-semi-transparent btn-glow"><a href="https://www.facebook.com/dekPuri01" target="_blank">contact</button></a>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</header>
+
+<section class="content-section align-items-center" id="front-cover">
+  <div calss="front-cover">
+    <div class="h0-hi">เกี่ยวกับตัวเอง</div><br>
+    <img class="logo" src="img/no-img.png">
+    <div class="h1-hi">ใส่ชื่อตัวเอง</div><br>
+    <div class="h2-hi">ใส่ชื่อโรงเรียน</div>
+    <div class="h2-hi">สนใจเรียนต่อ ใส่ชื่อมหาลัยและคณะที่อยากเข้า</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</section>
+<section class="content-section align-items-center" id="preface">
+  <div calss="preface">
+    <div class="h0-hi">PREFACE</div><br>
+    <div class="preface-1">เหตุผลที่อยากเข้าคณะนี้ : โปรเจกนี้เป็นโปรเจกที่นำส่ง borntodev ใครสนใจพัฒนาต่อสามารถนำไปต่อยอดได้เลยครับ</div><br>
+    <div class="preface-2">prp</div>
+    <div class="preface-3">ผู้จัดทำ</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</section>
+<section class="content-section align-items-center" id="Portfolio">
+  <div calss="Portfolio">
+    <div class="h0-hi">Portfolio</div><br>
+    <img class="logo-portfolio" src="img/no-img.png">
+      <i class="fa-solid fa-phone portfolio-icon"></i>
+      <div class="portfolio-icon-text3" >ใส่ข้อมูล</div>
+      <i class="fa-brands fa-facebook portfolio-icon"></i>
+      <div class="portfolio-icon-text2" >Puripong</div>
+      <i class="fa-brands fa-instagram portfolio-icon"></i>
+      <div class="portfolio-icon-text1" >wwwprppurxcom</div>
+      <i class="fa-brands fa-line portfolio-icon"></i>
+      <div class="portfolio-icon-text" >puripong_prp</div>
+
+    
+    <div class="portfolio-1">ข้อมูลส่วนตัว</div><br>
+    <div class="portfolio-2">ชื่อ : ใส่ข้อมูล ชื่อเล่น : ใส่ข้อมูล 
+      <br>วัน/เดือน/ปีเกิด : ใส่ข้อมูล หมู่เลือด : ใส่ข้อมูล
+      <br>เชื้อชาติ : ใส่ข้อมูล สัญชาติ : ใส่ข้อมูล ศาสนา : ใส่ข้อมูล
+       <br>ที่อยู่ : ใส่ข้อมูล  <!--ใส่ <br> เพื่อเป็นการเว้นบรรทัด -->
+      <br>ลักษณะนิสัย :ใส่ข้อมูล
+      <br>งานอดิเรก : ใส่ข้อมูล
+      <br>ความสามารถพิเศษ : ใส่ข้อมูล </div>
+    <div class="portfolio-3">ข้อมูลครอบครัว</div>
+    <div class="portfolio-4">บิดา :ใส่ข้อมูล
+      <br>อาชีพ : ใส่ข้อมูล
+      <br>เบอร์โทรศัพท์ : ใส่ข้อมูล
+      <br>มารดา : ใส่ข้อมูล
+      <br>อาชีพ : ใส่ข้อมูล
+      <br>เบอร์โทรศัพท์ :</div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</section>
+<section class="content-section align-items-center" id="education">
+  <div calss="education-1">
+    <div class="h0-hi">EDUCATION</div><br>
+    <img class="logo-school1" src="img/no-img.png">
+    <div class="educationtext-1">ชื่อโรงเรียน : ใส่ชื่อโรงเรียน <br> ระดับชั้นประถมศึกษา : ใส่ดับการศึกษา <br> เกรดเฉลี่ยสะสม (GPAX) : ใส่เลขเกรดเฉลี่ยสะสม </div>
+    <img class="logo-school2" src="img/no-img.png">
+    <div class="educationtext-1">ชื่อโรงเรียน : ใส่ชื่อโรงเรียน <br> ระดับชั้นประถมศึกษา : ใส่ดับการศึกษา <br> เกรดเฉลี่ยสะสม (GPAX) : ใส่เลขเกรดเฉลี่ยสะสม </div>
+    <img class="logo-school2" src="img/no-img.png">
+    <div class="educationtext-1">ชื่อโรงเรียน : ใส่ชื่อโรงเรียน <br> ระดับชั้นประถมศึกษา : ใส่ดับการศึกษา <br> เกรดเฉลี่ยสะสม (GPAX) : ใส่เลขเกรดเฉลี่ยสะสม </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</section>
+<section class="content-section align-items-center" id="certificate">
+  <div calss="certificate-1">
+    <div class="h0-hi">CERTIFICATE</div><br>
+
+    <div class="container-card">
+      <div class="card">
+        <div class="face face1">
+            <div class="content">
+                <img src="img/no-img.png">
+                <h3>ใส่ชื่อเกียรติบัตร</h3>
+            </div>
+        </div>
+        <div class="face face2">
+            <div class="content">
+                <p>รางวัลที่ได้รับ : ใส่ข้อมูล <br>ชื่อกิจกรรมที่เข้าร่วม : ใส่ข้อมูล<br> วัน/เดือน/ปี : ใส่ข้อมูล</p>
+                    <a href="https://www.facebook.com/dekPuri01" target="_blank">ดูข้อมูลเพื่มเติม</a>
+            </div>
+        </div>
+    </div>
+  <div class="card">
+    <div class="face face1">
+        <div class="content">
+            <img src="img/no-img.png">
+            <h3>ใส่ชื่อเกียรติบัตร</h3>
+        </div>
+    </div>
+    <div class="face face2">
+        <div class="content">
+            <p>รางวัลที่ได้รับ : ใส่ข้อมูล <br>ชื่อกิจกรรมที่เข้าร่วม : ใส่ข้อมูล<br> วัน/เดือน/ปี : ใส่ข้อมูล</p>
+                <a href="https://www.facebook.com/dekPuri01" target="_blank">ดูข้อมูลเพื่มเติม</a>
+        </div>
+    </div>
+</div>
+<div class="card">
+  <div class="face face1">
+      <div class="content">
+          <img src="img/no-img.png">
+          <h3>ใส่ชื่อเกียรติบัตร</h3>
+      </div>
+  </div>
+  <div class="face face2">
+      <div class="content">
+          <p>รางวัลที่ได้รับ : ใส่ข้อมูล <br>ชื่อกิจกรรมที่เข้าร่วม : ใส่ข้อมูล<br> วัน/เดือน/ปี : ใส่ข้อมูล</p>
+              <a href="https://www.facebook.com/dekPuri01" target="_blank">ดูข้อมูลเพื่มเติม</a>
+      </div>
+  </div>
+</div>
+
+</div>
+    <br><br><br><br><br><br>
+  </div>
+</section>
+
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+<button><a href="https://www.facebook.com/tidmaharai/posts/pfbid02dNUjQSXyaodbeY3bL7SjgRe4G95w2SNPibnvDX7eM7U2Nf1xkiLTnRQD9TcCFNewl"target="_blank"> รวมกำหนดการชีวิต ที่ ม.6 ต้องเจอ</a> </button>
+<button > <a href="https://www.facebook.com/tidmaharai/posts/pfbid0o49Wdz33d6siu3QQ9qktxCBVzA8FPRbTLTb37kto29h8SZxPkomaZ1jsKQvHZqNwl"target="_blank"> รวมเว็บสมัครทุกมหาวิทยาลัย</a> </button>
+<button > <a href="https://www.facebook.com/tidmaharai/posts/pfbid02ee5zrGsB9SrKJrCyM4yVpFDf8XidcNayu7W1G4QhvpfxaP74sBGHqPAQqS3pmxSWl"target="_blank"> ปฎิทินชีวิต TCAS66 </a> </button>
+
+<footer>&copy; Copyright 2022 PRP</footer>
+
+
+</body>
+
+</html>
